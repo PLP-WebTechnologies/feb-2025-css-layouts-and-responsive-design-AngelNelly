@@ -56,6 +56,9 @@ body {
 
 /* Footer */
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #d4a373;
   color: white;
   text-align: center;
@@ -64,7 +67,7 @@ footer {
 }
 
 /* Responsive design with Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .content {
     grid-template-columns: 1fr 1fr;
   }
